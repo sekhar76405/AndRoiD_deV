@@ -10,15 +10,15 @@
 
 
     <Button
+        android:id="@+id/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SCAN CODE"
-        android:textColor="#33691E"
         android:layout_centerHorizontal="true"
-        android:id="@+id/btn"
-        android:backgroundTint="#C0CA33"
         android:layout_marginTop="200dp"
-        ></Button>
+        android:backgroundTint="#C0CA33"
+        android:onClick="ScanButton"
+        android:text="SCAN CODE"
+        android:textColor="#33691E"></Button>
 
     <TextView
         android:layout_width="wrap_content"
@@ -27,6 +27,8 @@
         android:textSize="30sp"
         android:textColor="#E1F5FE"
         android:layout_below="@id/btn"
+        android:textAlignment="center"
+        android:id="@+id/txtveiw"
         android:layout_marginTop="50dp"
         android:layout_centerHorizontal="true"
         />
