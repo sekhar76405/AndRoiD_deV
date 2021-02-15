@@ -1,0 +1,3 @@
+# SCAN SCAN - ING.......
+
+#### An app for scanning and displaying the content of QR & BAR codes.
