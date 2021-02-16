@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.zxing.integration.android.IntentIntegrator;
@@ -25,9 +26,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         textView=findViewById(R.id.txtveiw);            //linking the xml object to the real java element
-
+        Button button = (Button) findViewById(R.id.clear_btn);
         ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.CAMERA},
                 PackageManager.PERMISSION_GRANTED);    //asking the user to access camera(allow or deny)
+
+
+        button.setOnClickListener(
+                new Button.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        textView.setText("Please Scan a Code.");
+                    }
+                }
+                );
 
     }
 
