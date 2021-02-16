@@ -18,7 +18,7 @@
         android:backgroundTint="#C0CA33"
         android:onClick="ScanButton"
         android:text="SCAN CODE"
-        android:textColor="#33691E"></Button>
+        android:textColor="#33691E"/>
 
     <TextView
         android:id="@+id/txtveiw"
@@ -38,7 +38,9 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:text="Clear"
+        android:backgroundTint="#C0CA33"
         android:layout_below="@id/txtveiw"
+        android:textColor="#33691E"
          />
 
 
