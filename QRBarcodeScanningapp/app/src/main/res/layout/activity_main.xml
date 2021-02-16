@@ -9,39 +9,49 @@
     tools:context=".MainActivity">
 
 
-    <Button
-        android:id="@+id/btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
-        android:backgroundTint="#C0CA33"
-        android:onClick="ScanButton"
-        android:text="SCAN CODE"
-        android:textColor="#33691E"/>
 
-    <TextView
-        android:id="@+id/txtveiw"
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:layout_below="@id/btn"
-        android:layout_centerHorizontal="true"
+        android:layout_height="match_parent"
         android:layout_marginTop="50dp"
-        android:text="Welcome!! Scan the code."
-        android:textAlignment="center"
-        android:textColor="#E1F5FE"
-        android:textSize="30sp" />
+        android:layout_marginBottom="60dp"
+        android:id="@+id/scrollView">
+
+        <TextView
+            android:id="@+id/txtveiw"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Welcome!! Scan the code."
+            android:textAlignment="center"
+            android:textColor="#E1F5FE"
+            android:textSize="30sp"
+            />
+    </ScrollView>
+
 
     <Button
         android:id="@+id/clear_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_marginRight="70dp"
+        android:layout_alignParentRight="true"
         android:text="Clear"
         android:backgroundTint="#C0CA33"
-        android:layout_below="@id/txtveiw"
+        android:layout_alignParentBottom="true"
         android:textColor="#33691E"
          />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#C0CA33"
+        android:onClick="ScanButton"
+        android:text="SCAN "
+        android:textColor="#33691E"/>
 
 
 </RelativeLayout>
