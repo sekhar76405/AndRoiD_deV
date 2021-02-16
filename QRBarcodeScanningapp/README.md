@@ -7,8 +7,8 @@
 ### HERE ARE SOME CODES YOU CAN TRY... CURIOUS WHAT'S INSIDE? 
 
 
-### Did You Know?
-![Did You Know?](Qwerty_QR.png)
+### Poem of the Day
+![Did You Know?](poem.png)
 
 ### Up for a Joke?
 ![jOKE](Joke_QR.png)
