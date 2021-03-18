@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/base_bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Quiz App"
+        android:textSize="60dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:text="Choose a Topic..!"
+        android:textSize="50dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp
+">
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:text="Kohli.company"
+            android:layout_marginLeft="30dp"
+            />
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:text="web dev"
+            android:layout_marginLeft="30dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp
+">
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:text="Politics"
+            android:layout_marginLeft="30dp"
+            />
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:text="Science"
+            android:layout_marginLeft="30dp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
