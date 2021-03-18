@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/base_bg"
+    android:background="@drawable/Ques_bg"
     tools:context=".MainActivity">
 
     <TextView
@@ -23,24 +23,26 @@
         android:layout_marginTop="100dp"
         android:layout_gravity="center"
         android:text="Choose a Topic..!"
-        android:textSize="50dp" />
+        android:textSize="50sp" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp
-">
+        android:layout_marginTop="40dp">
+
         <Button
             android:layout_width="160dp"
             android:layout_height="160dp"
             android:text="Kohli.company"
             android:layout_marginLeft="30dp"
+            android:background="@drawable/topic_button"
             />
         <Button
             android:layout_width="160dp"
             android:layout_height="160dp"
             android:text="web dev"
+            android:background="@drawable/topic_button"
             android:layout_marginLeft="30dp"
             />
 
@@ -50,19 +52,21 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp
-">
+        android:layout_marginTop="25dp">
+
         <Button
             android:layout_width="160dp"
             android:layout_height="160dp"
             android:text="Politics"
             android:layout_marginLeft="30dp"
+            android:background="@drawable/topic_button"
             />
         <Button
             android:layout_width="160dp"
             android:layout_height="160dp"
             android:text="Science"
             android:layout_marginLeft="30dp"
+            android:background="@drawable/topic_button"
             />
 
 
