@@ -21,68 +21,64 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="40dp"
         android:layout_gravity="center"
         android:textColor="@color/teal_200"
         android:text="Choose a Topic..!"
         android:textSize="50sp" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp">
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:backgroundTint="@color/teal_200"
+                android:text="Kohli.company"
+                android:gravity="center"
+                android:textColor="@color/black"
+                />
 
-        <Button
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:layout_marginLeft="30dp"
-            android:backgroundTint="@color/teal_200"
-            android:text="Kohli.company"
-            android:gravity="center"
-
-            android:textColor="@color/black"
-             />
-
-        <Button
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:text="web dev"
-            android:backgroundTint="@color/teal_200"
-            android:layout_marginLeft="30dp"
-            android:textSize="20dp"
-            android:textColor="@color/black"
-            />
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:text="web dev"
+                android:backgroundTint="@color/teal_200"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                />
 
 
-    </LinearLayout>
+        </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
 
-        <Button
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:text="Politics"
-            android:layout_marginLeft="30dp"
-            android:textSize="20dp"
-            android:textColor="@color/black"
-            android:backgroundTint="@color/teal_200"
-            />
-        <Button
-            android:layout_width="160dp"
-            android:layout_height="160dp"
-            android:text="Science"
-            android:layout_marginLeft="30dp"
-            android:textColor="@color/black"
-            android:textSize="20dp"
-            android:backgroundTint="@color/teal_200"
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:text="Politics"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/teal_200"
+                />
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:text="Science"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:backgroundTint="@color/teal_200"
+                />
+        </LinearLayout>
 
-            />
-
-
-    </LinearLayout>
 
 </LinearLayout>
