@@ -33,6 +33,7 @@
             android:layout_marginTop="40dp">
 
             <Button
+                android:id="@+id/kohli"
                 android:layout_width="160dp"
                 android:layout_height="100dp"
                 android:layout_marginLeft="30dp"
@@ -43,6 +44,7 @@
                 />
 
             <Button
+                android:id="@+id/web_dev"
                 android:layout_width="160dp"
                 android:layout_height="100dp"
                 android:text="web dev"
@@ -61,6 +63,7 @@
             android:layout_marginTop="25dp">
 
             <Button
+                android:id="@+id/politics"
                 android:layout_width="160dp"
                 android:layout_height="100dp"
                 android:text="Politics"
@@ -70,6 +73,7 @@
                 android:backgroundTint="@color/teal_200"
                 />
             <Button
+                android:id="@+id/science"
                 android:layout_width="160dp"
                 android:layout_height="100dp"
                 android:text="Science"
