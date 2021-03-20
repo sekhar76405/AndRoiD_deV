@@ -6,9 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import com.example.quizapp.QuestionActivity;
 
 public class Topics extends AppCompatActivity {
     private Button button1,button2,button3,button4;
+    private Intent intent = new Intent(this,QuestionActivity.class);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,13 +23,32 @@ public class Topics extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                open_questions_page();
+                open_questions_page(1);
+            }
+        });
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                open_questions_page(2);
+            }
+        });
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                open_questions_page(3);
+            }
+        });
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                open_questions_page(4);
             }
         });
     }
-    void open_questions_page()
+    void open_questions_page(int i)
     {
-        Intent intent = new Intent(this,QuestionActivity.class);
+        QuestionActivity questionActivity = new QuestionActivity();
+        questionActivity.receive_key(i);
         startActivity(intent);
     }
 }
